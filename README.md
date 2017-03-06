@@ -24,7 +24,7 @@ UIView
 | scrollViewDidEndDragging(_:willDecelerate:) | スクロールビューのドラッグが終わった呼ばれる |
 
 ## ページング可能なScrollViewをAuto Layoutで実装する方法
-下記リンク先参照
+下記リンク先参照  
 http://qiita.com/kazuhiro4949/items/afb8738f70100f5665c0
 
 ## フレームワーク
