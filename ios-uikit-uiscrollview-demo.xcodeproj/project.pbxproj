@@ -13,6 +13,8 @@
 		96ADF1801E6D91CE005D5868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ADF17F1E6D91CE005D5868 /* Assets.xcassets */; };
 		96ADF1831E6D91CE005D5868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ADF1811E6D91CE005D5868 /* LaunchScreen.storyboard */; };
 		96ADF18E1E6D91CF005D5868 /* ios_uikit_uiscrollview_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ADF18D1E6D91CF005D5868 /* ios_uikit_uiscrollview_demoTests.swift */; };
+		B6A7C76D1EE4639100B99A85 /* ScrollableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C76C1EE4639100B99A85 /* ScrollableViewController.storyboard */; };
+		B6A7C76F1EE463B400B99A85 /* ScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A7C76E1EE463B400B99A85 /* ScrollableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		96ADF1891E6D91CF005D5868 /* ios-uikit-uiscrollview-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uiscrollview-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ADF18D1E6D91CF005D5868 /* ios_uikit_uiscrollview_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uiscrollview_demoTests.swift; sourceTree = "<group>"; };
 		96ADF18F1E6D91CF005D5868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A7C76C1EE4639100B99A85 /* ScrollableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScrollableViewController.storyboard; sourceTree = "<group>"; };
+		B6A7C76E1EE463B400B99A85 /* ScrollableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				96ADF17F1E6D91CE005D5868 /* Assets.xcassets */,
 				96ADF1811E6D91CE005D5868 /* LaunchScreen.storyboard */,
 				96ADF1841E6D91CE005D5868 /* Info.plist */,
+				B6A7C76E1EE463B400B99A85 /* ScrollableViewController.swift */,
+				B6A7C76C1EE4639100B99A85 /* ScrollableViewController.storyboard */,
 			);
 			path = "ios-uikit-uiscrollview-demo";
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 				96ADF1831E6D91CE005D5868 /* LaunchScreen.storyboard in Resources */,
 				96ADF1801E6D91CE005D5868 /* Assets.xcassets in Resources */,
 				96ADF17E1E6D91CE005D5868 /* Main.storyboard in Resources */,
+				B6A7C76D1EE4639100B99A85 /* ScrollableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A7C76F1EE463B400B99A85 /* ScrollableViewController.swift in Sources */,
 				96ADF17B1E6D91CE005D5868 /* ViewController.swift in Sources */,
 				96ADF1791E6D91CE005D5868 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +422,7 @@
 				96ADF1941E6D91CF005D5868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96ADF1951E6D91CF005D5868 /* Build configuration list for PBXNativeTarget "ios-uikit-uiscrollview-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				96ADF1971E6D91CF005D5868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
